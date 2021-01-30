@@ -1,0 +1,58 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>ENC Haut-de-Seine - Connexion</title>
+       <link rel="stylesheet" href="con.scss">
+       <link rel="shortcut icon" type="image/png" href="Images/HDSCG (1).ico" height="70"/>
+        <!-- importer le fichier de style -->
+        <link rel="stylesheet" href="con.css" media="screen" type="text/css" />
+    </head>
+    <body>
+    <div>
+        <img src="Images/HDS.png" height="50">
+    </div>
+    
+        <h6 align="left">
+            ACCÈS DIRECT
+        </h6>
+        <div>
+        <div id="container">
+            <!-- zone de connexion -->
+            
+            <form action="acceuil.html" method="POST">
+                <br>
+                <h1>→ JE M'IDENTIFIE </h1><div align="center"><h3>ENTREZ VOTRE NOM D'UTILISATEUR ET VOTRE MOT DE PASSE</h3></div>
+                <br>
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Nom d'utilisateur" name="username" required>
+                <br>
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Mot de passe" name="password" required>
+                    <br>
+                    <br>
+                        <input type="submit" class="button" value="JE ME CONNECTE">
+            </form>
+        </div>
+
+</div>
+        <br>
+            <div class="slideshow">
+       <ul>
+             <li><img src="Images/displayImage.jpeg" alt="" width="400" height="400" /></li>
+             <li><img src="Images/displayImage (1).jpeg" alt="" width="400" height="400" /></li>
+             <li><img src="Images/displayImage (3).jpeg" alt="" width="400" height="400" /></li>             
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+   $(function(){
+      setInterval(function(){
+         $(".slideshow ul").animate({marginLeft:-350},800,function(){
+            $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+         })
+      }, 3500);
+   });
+   
+</script>
+    </body>
+</html>

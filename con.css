@@ -1,0 +1,123 @@
+#container{
+    width:400px;
+    margin:0 auto;
+    float:left;
+    margin-top:0%;
+    margin-left:70px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #82cdff;
+    border-radius: 5px;
+    background-color:#82cdff;
+    box-shadow: 0 0 200px 0 rgba(0, 0, 0, 0.2), 0 8px 8px 0 rgba(0, 0, 0, 0.24);
+}
+form:hover {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #82cdff;
+    border-radius: 15px;
+    background-color:#82cdff;
+    margin-top: -1ch;
+    transform-box: rotateY(36deg);
+    box-shadow: 0 0 200px 0 rgba(0, 0, 0, 0.2),8px 8px 8px 8px 8px 8px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 48%;
+    font-size: 2.3ch;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 1.8ch;
+    color: rgb(54, 54, 54);
+}
+h6 {
+    font-family: 'Benguiat', arial;
+    font-size: 30px;
+    color: #368fca;
+    text-shadow: -3px -3px -3px #aaa;
+    margin-left:170px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-shadow: rgba(0, 0, 0, .4) 1px 1px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 1px solid #9dd8ff;
+    outline:none;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #9dd8ff;
+    color: #ffffff;
+    border: 1px solid #53af57;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1.3px solid #9dd8ff;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+    outline:none;
+    box-shadow: rgba(0, 0, 0, .4) 1px 1px 1px ;
+}
+input[type=submit]:hover {
+    background-color: #9dd8ff;
+    color: #ffffff;
+    border: 1px solid #abdcff;
+    border-radius: 15px;
+    box-shadow:rgba(0, 0, 0, .4) 1px 1px 1px ;
+}
+input[type=submit]:active {
+    background-color: #9dd8ff;
+    color: #ffffff;
+    border: 1px solid #abdcff;
+    border-radius: 15px;
+    box-shadow:#9dd8ff -1px -1px;
+}
+b {
+    font-family: sans-serif	;
+}
+.slideshow {
+   width: 400px;
+   height: 400px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+   float:right;
+   margin-right:130px;
+}
+
+.slideshow ul {
+
+    /* 4 images donc 4 x 100% */
+   width: 300%;
+   height: 300px;
+   padding:0; margin:0;
+   list-style: none;
+}
+
+.slideshow li {
+   float: left;
+}
+.toto {
+    cursor: crosshair;
+}
+  
+  /* On utilise la valeur préfixée   */
+  /* si "zoom-in" n'est pas prise en */
+  /* charge */
